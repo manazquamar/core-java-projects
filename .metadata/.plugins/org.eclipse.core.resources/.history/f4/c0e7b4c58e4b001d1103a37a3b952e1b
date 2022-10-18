@@ -1,0 +1,26 @@
+package com.q3;
+
+import java.util.HashMap;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		Employe emp1=new Employe( 10,5000,"manaz");
+		Employe emp2=new Employe( 11,5000,"ashwin");
+		Employe emp3=new Employe( 12,9000,"abhi");
+		Employe emp4=new Employe( 13,8000,"aryan");
+		
+       HashMap<Integer, String> mp= new HashMap();
+       
+       mp.put(emp1.emp_id, Employe.company_name);
+       mp.put(emp2.emp_id, Employe.company_name);
+       mp.put(emp3.emp_id, Employe.company_name);
+       mp.put(emp4.emp_id, Employe.company_name);
+       
+       System.out.println(mp);
+	}
+	
+	
+
+}

@@ -1,0 +1,30 @@
+package com.score;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		Player p1=new Player("yhs", 5);
+		Player p2=new Player("okj", 6);
+		Player p3=new Player("jik", 7);
+		Player p4=new Player("dsa", 8);
+		Player p5=new Player("abs", 9);
+		
+		Set<Player>set=new HashSet<>();
+		set.add(p1);
+		set.add(p2);
+		set.add(p3);
+		set.add(p4);
+		set.add(p5);
+		
+
+		List<Player> set1= set.stream().sorted((x,y)->(x.score - y.score)).collect(Collectors.toList());
+		System.out.println(set1);
+}
+}

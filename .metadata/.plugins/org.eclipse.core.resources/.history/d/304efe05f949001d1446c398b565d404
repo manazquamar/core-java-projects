@@ -1,0 +1,30 @@
+package com.order;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+public class MainClass {
+
+	public static void main(String[] args) {
+//		Employ el=new Employ(102,"manaz" );
+//		Employ e2=new Employ(103,"ashwin" );
+//		Employ e3=new Employ(104,"ujwal");
+//		Employ e4=new Employ(105,"aryan" );
+//		Employ e5=new Employ(106,"manaz" );
+//		
+		List<Employ> list= new ArrayList<>();
+		
+		
+		list.add(e1)
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		list.add(e5);
+		
+		Collections.sort(list,Collections.reverseOrder());
+		System.out.println(list);
+	}
+
+}

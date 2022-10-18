@@ -1,0 +1,11 @@
+package com.q;
+
+import java.util.stream.Collector;
+
+public class Collectoers {
+
+	public static Collector toSet() {
+		return null;
+	}
+
+}

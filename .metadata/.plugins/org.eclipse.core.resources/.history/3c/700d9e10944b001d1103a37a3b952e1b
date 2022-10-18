@@ -1,0 +1,45 @@
+package com.q3;
+
+import java.util.Objects;
+
+public class Employe {
+	
+	static String company_name;
+	  @Override
+	public String toString() {
+		return "Employe [emp_id=" + emp_id + ", slary=" + slary + ", name=" + name + "]";
+	}
+
+	int emp_id;
+	  int slary;
+	  String name;
+	  
+	public Employe( int emp_id, int slary, String name) {
+		super();
+		
+		this.emp_id = emp_id;
+		this.slary = slary;
+		this.name = name;
+		
+	}
+
+	@Override
+	public int hashCode() {
+		return emp_id;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employe other = (Employe) obj;
+		return emp_id == other.emp_id ;
+	}
+	  
+	  
+
+}

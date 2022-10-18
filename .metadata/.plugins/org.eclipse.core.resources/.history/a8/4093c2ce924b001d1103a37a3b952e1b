@@ -1,0 +1,21 @@
+package com.q3;
+
+public class Employe {
+	
+	 String company_name;
+	  int emp_id;
+	  int slary;
+	  String name;
+	  
+	public Employe( int emp_id, int slary, String name) {
+		super();
+		
+		this.emp_id = emp_id;
+		this.slary = slary;
+		this.name = name;
+		
+	}
+	  
+	  
+
+}

@@ -1,0 +1,49 @@
+package com.driving;
+
+public class DrivingL {
+	
+	 private String name;
+	 private Integer age;
+	 private Integer policeVerification;
+	 private Integer medical;
+	public DrivingL(String name, Integer age, Integer policeVerification, Integer medical) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.policeVerification = policeVerification;
+		this.medical = medical;
+	}
+	@Override
+	public String toString() {
+		return "DrivingL [name=" + name + ", age=" + age + ", policeVerification=" + policeVerification + ", medical="
+				+ medical + "]";
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	public Integer getPoliceVerification() {
+		return policeVerification;
+	}
+	public void setPoliceVerification(Integer policeVerification) {
+		this.policeVerification = policeVerification;
+	}
+	public Integer getMedical() {
+		return medical;
+	}
+	public void setMedical(Integer medical) {
+		this.medical = medical;
+	}
+	 
+	 
+	 
+
+}

@@ -1,0 +1,33 @@
+package com.score;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		Player p1=new Player("yhs", 456);
+		Player p2=new Player("okj", 958);
+		Player p3=new Player("jik", 785);
+		Player p4=new Player("dsa", 456);
+		Player p5=new Player("abs", 546);
+		
+ Set<Player>set=new TreeSet<>((x,y)->(x.score - y.score)) ;//for decendin y-x
+		// Set<Player>set=new HashSet<>();
+		set.add(p1);
+		set.add(p2);
+		set.add(p3);
+		set.add(p4);
+		set.add(p5);
+		System.out.println(set);
+		
+		Player player=set.stream().max((x, y) -> (x.score - y.score)).get();
+
+//		List<Player> set1= set.stream().sorted((x,y)->(x.score - y.score)).collect(Collectors.toList());
+//		System.out.println(set1);
+}
+}

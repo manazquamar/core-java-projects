@@ -1,0 +1,19 @@
+package cpm.pro;
+
+
+import org.apache.commons.configuration2.PropertiesConfiguration;
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+
+public class PropertiesDemo {
+	
+	public static void main(String[] args) throws ConfigurationException {
+		
+		Configurations configuration= new Configuration();
+		PropertiesConfiguration config = configuration.properties("configuration.properties");
+		System.out.println(config.getProperty("name")); 
+		
+		
+		
+	}
+
+}

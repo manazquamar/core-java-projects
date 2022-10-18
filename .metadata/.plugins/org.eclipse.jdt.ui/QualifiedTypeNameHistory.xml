@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="com.list.Student"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.comparableDemo.Student"/>
+    <fullyQualifiedTypeName name="com.score.Player"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.TreeSet"/>
+    <fullyQualifiedTypeName name="com.demo.Employee"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.ParserConfigurationException"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.AbstractConfiguration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.builder.fluent.Configurations"/>
+    <fullyQualifiedTypeName name="java.lang.module.Configuration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.PropertiesConfiguration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.configuration2.ex.ConfigurationException"/>
+    <fullyQualifiedTypeName name="javax.security.auth.login.Configuration"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.LogFactory"/>
+    <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
+    <fullyQualifiedTypeName name="com.driving.DrivingL"/>
+</qualifiedTypeNameHistroy>

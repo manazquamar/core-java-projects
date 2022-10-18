@@ -1,0 +1,25 @@
+package com.driving;
+
+public class MainClass {
+
+	private static final int DrivingL = 0;
+
+	public static void main(String[] args) {
+
+		DrivingL dl1 = new DrivingL("manaz", 23, 1, 0);
+		DrivingL dl2 = new DrivingL("ujwal", 20, 0, 1);
+		DrivingL dl3 = new DrivingL("adarsh", 22,1 , 1);
+		DrivingL dl4 = new DrivingL("abhi", 27, 1, 0);
+		DrivingL dl5 = new DrivingL("ashwini", 18,1,1);
+		
+		if (DrivingL  < 18) {
+			System.out.println("underage");
+			
+		} else {
+			 System.out.println("he is above 18");
+
+		}
+
+	}
+
+}

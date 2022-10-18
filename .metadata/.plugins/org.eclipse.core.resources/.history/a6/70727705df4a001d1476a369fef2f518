@@ -1,0 +1,17 @@
+package com.logDemop;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class UserAuthenticationTest {
+
+	@Test
+	void loginUserSuccessTest() {
+		UserAuthentication ua = new UserAuthentication();
+    String actual=	ua.loginUser("manaz", "manaz56");
+     String expected = "successfully logged in";
+     assertEquals(expected,actual);
+	}
+
+}

@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * @author Manazil
+ *
+ */
+module Properties {
+	requires org.apache.commons.configuration2;
+}
